@@ -24,5 +24,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
+# RIL
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.telephony.ril_class=MediaTekRIL
+
 # Vendor
 $(call inherit-product-if-exists, vendor/bq/kaito/kaito-vendor.mk)
