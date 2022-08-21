@@ -1,6 +1,6 @@
 # Camera
 bin/bwc
-lib/hw/camera.default.so
+lib/hw/camera.default.so:lib/hw/camera.mt6592.so
 lib/libcam.camadapter.so
 lib/libcam.campipe.so
 lib/libcam.camshot.so
