@@ -125,15 +125,16 @@ lib/libpalsecurity.so
 vendor/lib/hw/bluetooth.blueangel.so
 
 # DRM
-vendor/lib/mediadrm/libwvdrmengine.so
+vendor/lib/mediadrm/libwvdrmengine.so|03b60114c1334d164fbb35aa873a771009c1c700
+vendor/lib/mediadrm/libdrmclearkeyplugin.so|0d8b35952422b2a4bcb895d3cc4e0614cfe7c800
 lib/drm/libdrmmtkplugin.so
-lib/libdrmmtkutil.so
+lib/libdrmmtkutil.so|d7e17c597de03bd8a053781a2b47cc7657f88f77
 lib/libdrmmtkwhitelist.so
 lib/libstlport.so
-vendor/lib/libwvdrm_L3.so
-vendor/lib/libwvm.so
-vendor/lib/libWVStreamControlAPI_L3.so
-vendor/lib/drm/libdrmwvmplugin.so
+vendor/lib/libwvdrm_L3.so|b45c00a736c3e6fbf967c8486e08037068760f18
+vendor/lib/libwvm.so|3482ceef4bd2b986a03cb00245c3bc5449cb7640
+vendor/lib/libWVStreamControlAPI_L3.so|212d328e9c587533e82a5ba13372befc8cd13a9f
+vendor/lib/drm/libdrmwvmplugin.so|5410dfb54a913c3204df663599c3e9f6a1400800
 
 # GPS
 lib/hw/gps.default.so:lib/hw/gps.mt6592.so|9e4bf9af46d4bfb93195f04d86c1df0eb1b46ed2
