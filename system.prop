@@ -3,6 +3,9 @@ ro.sf.lcd_density=240
 persist.sys.lcd_density=240
 ro.sf.hwrotation=0
 
+# Navbar
+qemu.hw.mainkeys=0
+
 # RIL
 rild.libpath=/system/lib/mtk-ril.so
 rild.libargs=-d /dev/ttyC0
