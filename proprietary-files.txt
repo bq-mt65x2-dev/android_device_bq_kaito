@@ -234,7 +234,6 @@ lib/libstagefright_memutil.so
 etc/mtklog-config.prop
 etc/mtk_clear_motion.cfg
 etc/mtk_omx_core.cfg
-vendor/lib/libstagefright_soft_ddpdec.so
 
 # Mediatek
 lib/libmediatek_exceptionlog.so
@@ -321,7 +320,6 @@ lib/libawb_wrap.so
 lib/libcustom_jni.so
 lib/libcustom_prop.so
 lib/libcvsd_mtk.so
-lib/libc_malloc_debug_mtk.so
 lib/libfile_op.so
 lib/libfilterframework_jni.so
 lib/libfilterpack_facedetect.so
