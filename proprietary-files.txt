@@ -125,16 +125,14 @@ lib/libpalsecurity.so
 vendor/lib/hw/bluetooth.blueangel.so
 
 # DRM
-vendor/lib/mediadrm/libwvdrmengine.so|03b60114c1334d164fbb35aa873a771009c1c700
-vendor/lib/mediadrm/libdrmclearkeyplugin.so|0d8b35952422b2a4bcb895d3cc4e0614cfe7c800
-lib/drm/libdrmmtkplugin.so
-lib/libdrmmtkutil.so|d7e17c597de03bd8a053781a2b47cc7657f88f77
-lib/libdrmmtkwhitelist.so
 lib/libstlport.so
-vendor/lib/libwvdrm_L3.so|b45c00a736c3e6fbf967c8486e08037068760f18
-vendor/lib/libwvm.so|3482ceef4bd2b986a03cb00245c3bc5449cb7640
-vendor/lib/libWVStreamControlAPI_L3.so|212d328e9c587533e82a5ba13372befc8cd13a9f
-vendor/lib/drm/libdrmwvmplugin.so|5410dfb54a913c3204df663599c3e9f6a1400800
+vendor/lib/drm/libdrmctaplugin.so|8e93e678fc03f1687230b100ab35a308b9d2edd2
+vendor/lib/drm/libdrmmtkplugin.so|77016ebccca7edb2ed13131188f9125b3a568693
+vendor/lib/mediadrm/libdrmclearkeyplugin.so|e180f7d16e9bc1a3abe56ea3b828d2ce287df00b
+vendor/lib/mediadrm/libmockdrmcryptoplugin.so|e9de4059b7212ca84547f8afe725214f60a13a35
+vendor/lib/mediadrm/libwvdrmengine.so|24e085f1f09e03b7fd49428850dca0dfb66ea418
+vendor/lib/libdrmmtkutil.so|2215b9220c65ed27e0630b42ba34ca836aa8e876
+vendor/lib/libdrmmtkwhitelist.so|8c9565212cacc7b289dcb2aee4b03c7bc3efbf0d
 
 # GPS
 bin/mtk_agpsd|318720aabff03c2f65ddbfc972c0d4d05babc11b
@@ -410,6 +408,7 @@ lib/libnvram_daemon_callback.so
 lib/libnvram_platform.so
 lib/libnvram_sec.so
 lib/libcustom_nvram.so
+vendor/lib/libnvramagentclient.so|70ea03c705f28b048e9ef61a2743538bfeb3fbff
 
 # Swap
 bin/tiny_mkswap
