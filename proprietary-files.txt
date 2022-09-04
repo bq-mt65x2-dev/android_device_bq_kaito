@@ -231,7 +231,7 @@ lib/libClearMotionFW.so
 lib/libstagefright_memutil.so
 etc/mtklog-config.prop
 etc/mtk_clear_motion.cfg
-etc/mtk_omx_core.cfg
+etc/mtk_omx_core.cfg|d62df0d28e553856800709f1665f9178741500cb
 
 # Mediatek
 lib/libmediatek_exceptionlog.so
