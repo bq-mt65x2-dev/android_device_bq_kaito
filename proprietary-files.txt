@@ -125,7 +125,6 @@ lib/libpalsecurity.so
 vendor/lib/hw/bluetooth.blueangel.so
 
 # DRM
-lib/libstlport.so
 vendor/lib/drm/libdrmctaplugin.so|8e93e678fc03f1687230b100ab35a308b9d2edd2
 vendor/lib/drm/libdrmmtkplugin.so|77016ebccca7edb2ed13131188f9125b3a568693
 vendor/lib/mediadrm/libdrmclearkeyplugin.so|e180f7d16e9bc1a3abe56ea3b828d2ce287df00b
@@ -139,10 +138,6 @@ bin/mtk_agpsd|318720aabff03c2f65ddbfc972c0d4d05babc11b
 lib/libmnl.so|bf4f292a5f5faf3fee2f50369dca1e892df1d7c1
 lib/libssladp.so|f25189a2b59c6f70025cff51fb847b4a59f5c21f
 xbin/mnld|90f1757a16383d4946308403e9a9761f70fb199b
-
-# Display
-lib/hw/gralloc.mt6592.so
-lib/hw/hwcomposer.mt6592.so
 
 # Firmware
 etc/firmware/catcher_filter_1_wg_n.bin
@@ -167,14 +162,20 @@ etc/firmware/WIFI_RAM_CODE_MT6628
 etc/firmware/WMT_SOC.cfg
 
 # Graphics
-bin/pq
-lib/egl/libEGL_mali.so
-lib/egl/libGLESv1_CM_mali.so
-lib/egl/libGLESv2_mali.so
--lib/libdpframework.so
-lib/libion.so
-lib/libjni_pq.so
-lib/libMali.so
+lib/egl/libEGL_mali.so|7114817dbc4568c9fb6512c477b253d6a54b2dc4
+lib/egl/libGLESv1_CM_mali.so|a157312137f5463ba0af28005326b3cb1184c3d5
+lib/egl/libGLESv2_mali.so|be60dc65fc47b606672d5b52cf21e24677daaf2a
+lib/hw/gralloc.mt6592.so|94df484f137ffdde537332730023e61c473c5f57
+lib/hw/hwcomposer.mt6592.so|f82cfc2b534bb43729f849fcef9bbcaf84596444
+-lib/libdpframework.so|11bc6f2f2b558ebb68ab1f6645343c210e68ff1b
+lib/libgralloc_extra.so|6851b365bb7d1d4e805b08e9d4656ed9e6478119
+lib/libgui_ext.so|0931fe52f560a700c06978c8007b7c2679f41122
+lib/libion.so|5f28900cdb01df5f82ccbe0dac8500a60d8571a9
+lib/libion_mtk.so|5cc5d685c639296fbe96a01adba75a9909a6b9a2
+lib/libMali.so|590eb3e9bc84bee7e5cc6ab717abea4faca891cb
+lib/libmtk_mali_user.so|2f889b59a8960e9ffa47d347b8e48d2b0a985952
+lib/libmtk_mmutils.so|9690378759b57024f49064a8efac37220249b5c3
+lib/libui_ext.so|1de889cc035871055f99ba4c9f8625b7bae2015c
 
 # OMX
 bin/MtkCodecService
