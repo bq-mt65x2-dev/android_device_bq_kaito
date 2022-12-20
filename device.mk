@@ -35,7 +35,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.ril_class=MediaTekRIL
 
 # Call dalvik heap config
-$(call inherit-product-if-exists, frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-heap.mk)
+$(call inherit-product-if-exists, frameworks/native/build/phone-hdpi-2048-dalvik-heap.mk)
 
 # Vendor
 $(call inherit-product-if-exists, vendor/bq/kaito/kaito-vendor.mk)
