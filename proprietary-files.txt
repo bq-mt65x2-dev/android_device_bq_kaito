@@ -369,8 +369,11 @@ bin/vtservice
 etc/mddb/BPLGUInfoCustomAppSrcP_MT6592_S00_MOLY_WR8_W1315_MD_WG_MP_V39_1_wg_n
 lib/libamrvt.so
 lib/libamr_wrap.so
+lib/libreference-ril.so
+lib/libril.so
 lib/librilmtk.so
 lib/librilmtkmd2.so
+lib/librilutils.so
 lib/libutilrilmtk.so
 lib/libWVphoneAPI.so
 lib/mtk-ril.so
